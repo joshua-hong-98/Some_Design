@@ -1,2 +1,2 @@
-# Some_Design
+# About
 more design oriented projects
