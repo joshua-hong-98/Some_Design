@@ -1,4 +1,4 @@
-# README
+# About
 This is an app design concept
 Our app design concept was made on Figma 
 The link below will take you to our interactive prototype on Figma
