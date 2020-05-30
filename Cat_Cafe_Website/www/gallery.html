@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <title> Cats Gallery </title>
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" type="image/x-icon" href="images/alley_cat_icon.ico" />
+    <!-- citaiton: image from Kristin (owner of Alley Cat Cafe)-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/All.css">
+  <script src="scripts/jquery-3.3.1.min.js" type="text/javascript"></script>
+  <script src="scripts/catsslideshow.js" type="text/javascript"></script>
+  <script src="scripts/sidebar.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- thew3schools: how to make the hamburger menu bar-->
+</head>
+
+<body>
+  <header>
+
+  <div class = "container">
+  <div class="navbar">
+    <img class="logo" src="images/alley_cat_logo3.png" alt="alley_cat_logo">
+    <!-- citaiton: image from Kristin (owner of Alley Cat Cafe)-->
+    <div class="responsive_navbar" id="navigation">
+      <a href="index.html">Home</a>
+      <a href="mission.html">Mission</a>
+      <a href="visit.html">Visit</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="menu.html">Menu</a>
+      <a href="volunteer.html">Volunteer</a>
+      <a href="contact.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    </div>
+  </header>
+<div class = "main">
+<h1>Check out what our cats are up to!</h1>
+  <!-- Slideshow container -->
+<div class="slideshow-container">
+
+<!-- Full-width images with number and caption text -->
+<div class="mySlides fade block ">
+  <div class="numbertext">1 / 10</div>
+  <img src="images/catcloseup.jpeg" style="width:100%" alt = "firstimage">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 10</div>
+  <img src="images/chillin.jpeg" alt ="chillin">
+  <!--This photo was taken by jh976 on 11/27/2018-->
+  <div class="text">Just Chillin'</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 10</div>
+  <img src="images/cutecat.jpeg" alt ="cutecat">
+  <!--This photo was taken by jh976 on 11/27/2018-->
+  <div class="text">Cute Cat!</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 10</div>
+  <img src="images/flexcat.jpeg" alt ="flexcat">
+  <!--This photo was taken by jh976 on 11/27/2018-->
+  <div class="text">Flexible!</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 10</div>
+  <img src="images/friendscat.jpeg" alt ="friends">
+  <!--This photo was taken by jh976 on 11/27/2018-->
+  <div class="text">Friends!</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 10</div>
+  <img src="images/hideandseek.jpeg" alt ="Hideandseek">
+  <!--This photo was taken by jh976 on 11/27/2018-->
+  <div class="text">Hide and Seek!</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 10</div>
+  <img src="images/readytopounce.jpg" alt ="readytopounce">
+  <!--This photo was taken by me, bc596, on 11/27/2018-->
+  <div class="text">Ready to Pounce!</div>
+</div>
+
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 10</div>
+  <img src="images/sleepingcats.jpg" alt ="sleepingcats">
+  <!--This photo was taken by me, bc596, on 11/27/2018-->
+  <div class="text">Sleepingcats</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">9 / 10</div>
+  <img src="images/stalkcat.jpeg" alt ="stalkcat">
+  <!--This photo was taken by jh976 on 11/27/2018-->
+  <div class="text">Stalking</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">10 / 10</div>
+  <img src="images/yarn.jpeg" alt ="well fed">
+  <!--This photo was taken by jh976 on 11/27/2018-->
+  <div class="text">Playin' with yarn!</div>
+</div>
+<!-- Next and previous buttons -->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+  <span class="dot" onclick="currentSlide(9)"></span>
+  <span class="dot" onclick="currentSlide(10)"></span>
+
+</div>
+</div>
+
+<footer>
+  <p> Copyrighted by The Alley Cat Cafe </p>
+  <!-- From Brian Chen's Project 2 -->
+</footer>
+
+</body>

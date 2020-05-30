@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <title> Cats Gallery </title>
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" type="image/x-icon" href="images/alley_cat_icon.ico" />
+  <!-- citaiton: image from Kristin (owner of Alley Cat Cafe)-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/All.css">
+  <script src="scripts/sidebar.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- thew3schools: how to make the hamburger menu bar-->
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="navbar">
+        <img class="logo" src="images/alley_cat_logo3.png" alt="alley_cat_logo">
+        <!-- citaiton: image from Kristin (owner of Alley Cat Cafe)-->
+        <div class="responsive_navbar" id="navigation">
+          <a href="index.html">Home</a>
+          <a href="mission.html">Mission</a>
+          <a href="visit.html">Visit</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="menu.html">Menu</a>
+          <a href="volunteer.html">Volunteer</a>
+          <a href="contact.html">Contact</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <div class="about">
+    <main>
+      <h1>Menu</h1>
+      <img src="images/coffee.jpg" alt="Coffee">
+      <!--this image was given to us for use by Kristen, the owner of the Alley Cat Cafe-->
+      <p>Our menu is vegan-friendly and entirely gluten free!</p>
+      <!--Table adapted from w3schools.org and personalized for our use with Kristen's Alley Cat Cafe-->
+      <!--Menu information from Alley Cat Cafe-->
+      <h3>Brew Bar</h3>
+      <table>
+        <tr>
+          <th></th>
+          <th>8 oz.</th>
+          <th>12 oz.</th>
+          <th>16 oz.</th>
+        </tr>
+        <tr>
+          <td>Daily French Press</td>
+          <td>2.00</td>
+          <td>2.30</td>
+          <td>2.60</td>
+        </tr>
+        <tr>
+          <td>Pourover</td>
+          <td>2.25</td>
+          <td>2.75</td>
+          <td>3.25</td>
+        </tr>
+        <tr>
+          <td>Aeropress</td>
+          <td></td>
+          <td>3.25</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>French Press Pot</td>
+          <td>4.25</td>
+          <td></td>
+          <td>6.25</td>
+        </tr>
+      </table>
+      <h3>Iced Drinks</h3>
+      <table>
+        <tr>
+          <th></th>
+          <th>16 oz.</th>
+          <th>20 oz.</th>
+        </tr>
+        <tr>
+          <td>Cold Brew</td>
+          <td>3.25</td>
+          <td>3.70</td>
+        </tr>
+        <tr>
+          <td>Cold Pourover</td>
+          <td>3.50</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Italian Soda</td>
+          <td>3.00</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Iced Tea</td>
+          <td>3.00</td>
+          <td>3.40</td>
+        </tr>
+      </table>
+      <h3>Espresso Bar</h3>
+      <table>
+        <tr>
+          <td>Espresso</td>
+          <td>House Blend</td>
+          <td>2.75</td>
+        </tr>
+        <tr>
+          <td>Americano</td>
+          <td>12 oz.</td>
+          <td>2.75</td>
+        </tr>
+        <tr>
+          <td>Meowchiato</td>
+          <td>2 oz.</td>
+          <td>3.25</td>
+        </tr>
+        <tr>
+          <td>Cortado</td>
+          <td>4 oz.</td>
+          <td>3.50</td>
+        </tr>
+        <tr>
+          <td>Catpuccino</td>
+          <td>2 oz.</td>
+          <td>3.75</td>
+        </tr>
+        <tr>
+          <td>Latte</td>
+          <td>Flavored +.45</td>
+          <td>4.00</td>
+        </tr>
+        <tr>
+          <td>Mocha</td>
+          <td>4.00</td>
+          <td>4.75</td>
+        </tr>
+      </table>
+      <h3>Extras</h3>
+      <table>
+        <tr>
+          <td>Espresso Shot</td>
+          <td>+1.50</td>
+        </tr>
+        <tr>
+          <td>Soy, oat, or almond milk</td>
+          <td>+0.50</td>
+        </tr>
+        <tr>
+          <td>Whipped Cream</td>
+          <td>+0.50</td>
+        </tr>
+      </table>
+      <h3>Tea</h3>
+      <table>
+        <tr>
+          <td>Single Cup</td>
+          <td>2.50</td>
+        </tr>
+        <tr>
+          <td>Tea Pot</td>
+          <td>4.50</td>
+        </tr>
+        <tr>
+          <td>Self-serve at our station</td>
+        </tr>
+      </table>
+      <h3>Kittea Lattes</h3>
+      <table>
+        <tr>
+          <th></th>
+          <th>8 oz.</th>
+          <th>12 oz.</th>
+          <th>16 oz.</th>
+        </tr>
+        <tr>
+          <td>The Royal Cat (English Breakfast)</td>
+          <td>3.25</td>
+          <td>3.50</td>
+          <td>3.75</td>
+        </tr>
+        <tr>
+          <td>London Fog (Earl Grey + Vanilla)</td>
+          <td>3.25</td>
+          <td>3.50</td>
+          <td>3.75</td>
+        </tr>
+        <tr>
+          <td>Matcha (Green Tea Powder + Vanilla)</td>
+          <td>3.50</td>
+          <td>4.00</td>
+          <td>4.50</td>
+        </tr>
+        <tr>
+          <td>The Catnap (Spiced Chemicals + Honey)</td>
+          <td>3.25</td>
+          <td>3.50</td>
+          <td>3.75</td>
+        </tr>
+        <tr>
+          <td>Masala Chai (Spiced Black Tea)</td>
+          <td>3.75</td>
+          <td>4.25</td>
+          <td>4.75</td>
+        </tr>
+        <tr>
+          <td>Rooibos Latte (Non-Caffinated Red Tea)</td>
+          <td>3.50</td>
+          <td>3.75</td>
+          <td>4.00</td>
+        </tr>
+      </table>
+      <h3>Kids or young of heart...</h3>
+      <table>
+        <tr>
+          <td>Rainbow Fizzy! (A small italian soda)</td>
+          <td>2.75</td>
+        </tr>
+        <tr>
+          <td>Ice Cream Puddle (Vanilla, milk, whipped cream & sprinkles!)</td>
+          <td>3.00</td>
+        </tr>
+        <tr>
+          <td>Chocolate Milk</td>
+          <td>2.50</td>
+        </tr>
+      </table>
+      <h3> More Drinks </h3>
+      <table>
+        <tr>
+          <th></th>
+          <th>8 oz.</th>
+          <th>12 oz.</th>
+          <th>16 oz.</th>
+        </tr>
+        <tr>
+          <td>Hot Chocolate</td>
+          <td>2.75</td>
+          <td>3.00</td>
+          <td>3.25</td>
+        </tr>
+        <tr>
+          <td>Steamer (Steamed milk with choice of flavor)</td>
+          <td>2.75</td>
+          <td>3.00</td>
+          <td>3.25</td>
+        </tr>
+        <tr>
+          <td>The Black Cat (Daily Brew w/ a shot of espresso)</td>
+          <td>3.00</td>
+          <td>3.25</td>
+          <td>3.50</td>
+        </tr>
+        <tr>
+          <td>The Tigress (Chai Latte with Espress)</td>
+          <td>4.25</td>
+          <td>4.75</td>
+          <td>5.25</td>
+        </tr>
+        <tr>
+          <td>The Cat Lady (Mocha w/ lavender)</td>
+          <td></td>
+          <td>4.65</td>
+          <td>4.85</td>
+        </tr>
+        <tr>
+          <td>The Calico (Vanilla, caramel & chocolate latte)</td>
+          <td></td>
+          <td>4.65</td>
+          <td>4.85</td>
+        </tr>
+        <tr>
+          <td>Pumpkin Pie Latte</td>
+          <td></td>
+          <td>4.75</td>
+          <td>5.25</td>
+        </tr>
+      </table>
+      <h3>Breakfast (starts at open)</h3>
+      <table>
+        <tr>
+          <td>Housemade Muesh (made with nuts, seeds, berries & organic oats)</td>
+          <td>with milk 3.50</td>
+          <td>with yogurt 4.50</td>
+        </tr>
+      </table>
+      <h4>Toast (on sourdough, wheat, or gluten free (+1.25))</h4>
+      <table>
+        <tr>
+          <td>With jam</td>
+          <td>2.75</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>With avocado (salt &pepper)</td>
+          <td>4.75</td>
+        </tr>
+        <tr>
+          <td>With fig preserves & (goat cheese)</td>
+          <td>5.00</td>
+        </tr>
+        <tr>
+          <td>With almond butter & (apple or banana)</td>
+          <td>4.50</td>
+        </tr>
+      </table>
+      <h4>Brunch for Two 18.00</h4>
+      <table>
+        <tr>
+          <td>French Press Pot or Tea Pot</td>
+        </tr>
+        <tr>
+          <td>2 Scones, Muffins, or Cakes</td>
+        </tr>
+        <tr>
+          <td>2 Orders of Toast of your choice</td>
+        </tr>
+      </table>
+      <h3>Lunch - starts at 11am</h3>
+      <h4>Sandwiches</h4>
+      <table>
+        <tr>
+          <td>The ABC (Almond Butter, Compote(jam) on white or wheat) </td>
+          <td>3.95 </td>
+        </tr>
+        <tr>
+          <td>The Catprese (mozzarlera and roasted tomatoes)</td>
+          <td>7.95</td>
+        </tr>
+        <tr>
+          <td>The Tabby (Rosemary balsamas on Ithaca Bakery)</td>
+          <td>7.95</td>
+        </tr>
+        <tr>
+          <td>The East Catolina (Susie's Seitan, Housemade Chipotle Coleslaw, Pickles &Spinah on an Ithaca Bakery kaiser roll)</td>
+          <td>8.50</td>
+        </tr>
+        <tr>
+          <td>Grilled Cheese</td>
+          <td>4.95</td>
+        </tr>
+      </table>
+      <h4>Salads</h4>
+      <table>
+        <tr>
+          <td>House Salad (mixed greens, roasted tomatoes, kalamata olives, dried blueberries, pecans, Lively Ron Dairy Goat Cheese with rosemary balsamas)</td>
+        </tr>
+        <tr>
+          <td>Quinoa Salad (organic quinoa, roasted tomatoes, kalamata olives, dired cranberries, goat cheese, oil & vinegar, served on arugula)</td>
+        </tr>
+        <tr>
+          <td>Curried Chickpea Salad(Chickpeas, fabanaise, dried cranberries, pepitas & spices)</td>
+        </tr>
+      </table>
+      <h3>Soup! 4.25</h3>
+      <h4>Extras</h4>
+      <table>
+        <tr>
+          <td>Gluten Free Bread(v)</td>
+        </tr>
+        <tr>
+          <td>Tomatoes</td>
+        </tr>
+        <tr>
+          <td>Avocado</td>
+        </tr>
+      </table>
+    </main>
+  </div>
+
+
+  <footer>
+    <p> Copyrighted by The Alley Cat Cafe </p>
+  </footer>
+</body>
