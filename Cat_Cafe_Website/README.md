@@ -1,7 +1,7 @@
 # Project 4
 
- This was a team project consisting of 4 members
- We created a website for a local cat cafe
+- This was a team project consisting of 4 members
+- We created a website for a local cat cafe
 
 # Submission Instructions
 
